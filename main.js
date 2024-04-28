@@ -35,7 +35,7 @@ form.onsubmit = function(e){
            </div>
            <div class="card_weather">
             <div class="card_value">${data.current.temp_c}<sup>°С</sup></div>
-            <img class="card_image" src="./pictures/Weather_icon.png" alt="Weather_icon">
+            <img class="card_image" src="/WEATHER.io/pictures/Weather_icon.png" alt="Weather_icon">
            </div>
            <div class="card_description">${data.current.condition.text}</div>
            </div>`;
